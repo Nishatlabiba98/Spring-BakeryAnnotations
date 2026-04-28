@@ -1,8 +1,10 @@
 package com.zipcodewilmington.bakery.services;
 
+import org.springframework.stereotype.Service;
+
 import com.zipcodewilmington.bakery.models.Baker;
 import com.zipcodewilmington.bakery.repositories.BakerRepository;
-
+@Service
 public class BakerService {
     private BakerRepository repository;
 
